@@ -36,6 +36,10 @@ public class MemberService {
             });
     }
 
+    public void clearStore() {
+        memberRepository.clearStore();
+    }
+
     /**
      * 전체 회원 조회
      * @return
